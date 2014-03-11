@@ -1,0 +1,67 @@
+._stranica2 {
+  
+  .navbar{
+    background-color: blue;
+    width: 100%;
+    height: 120px;
+  }
+
+  #glavni-dio {
+    background-color: magenta;
+    height: 250px;
+    margin-top: 30px;
+
+  }
+
+  #desno1 {
+    height: 150px;
+    background-color: orange;
+    margin-top: 30px;
+  }
+
+  #lijeva {
+    height: 250px;
+    background-color: yellow;
+  }
+
+  #desna {
+    height: 250px;
+    background-color: yellow;
+  }
+
+   #desno2 {
+    height: 150px;
+    background-color: orange;
+    margin-top: -90px;
+  }
+
+  #dolje {
+    height: 250px;
+    background-color: cyan;
+  }
+
+  #desno3 {
+    height: 150px;
+    background-color: orange;
+    margin-top: -178px;
+  }
+
+  #desno4 {
+    height: 150px;
+    background-color: orange;
+    margin-top: -265px;
+  }
+  
+  .column10 {
+    @include span-columns(10);
+  }
+
+  .column2 {
+    @include span-columns(2);
+  }
+
+  .column5 {
+    @include span-columns(5);
+  }
+}
+

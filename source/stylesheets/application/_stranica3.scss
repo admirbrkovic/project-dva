@@ -1,0 +1,76 @@
+._stranica3 {
+	
+	#prvi-link {
+		height: 30px;
+		width: 120px;
+		background-color: #00ced1;
+		margin-top: 150px;
+	}
+
+	#slika {
+		height: 250px;
+		background-color: #191970;
+		margin-top: 10px;
+		margin-left: -35px;
+	}
+
+	#link-lijevo1 {
+		height: 30px;
+		width: 120px;
+		background-color: #00ced1;
+		margin-top: 70px;
+	}
+
+	#link-lijevo2 {
+		height: 30px;
+		width: 120px;
+		background-color: #00ced1;
+		margin-top: -100px;
+	}
+
+	#link-desno1 {
+		height: 30px;
+		width: 120px;
+		background-color: #00ced1;
+		margin-top: -220px;
+		margin-right: 50px;
+	}
+
+	#link-desno2 {
+		height: 30px;
+		width: 120px;
+		background-color: #00ced1;
+		margin-top: -120px;
+		margin-right: 50px;
+	}
+
+	#link-dolje {
+		height: 30px;
+		width: 120px;
+		background-color: #00ced1;
+		margin-top: -40px;
+	}
+  
+    .column {
+    @include outer-container;
+  }
+  .column6 {
+    @include span-columns(6);
+  }
+
+  .column4 {
+    @include span-columns(4);
+  }
+
+  .column2 {
+    @include span-columns(2);
+  }
+
+  .column8 {
+    @include span-columns(8);
+  }
+
+  .column10 {
+    @include span-columns(10);
+  }
+}

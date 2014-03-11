@@ -1,0 +1,52 @@
+
+
+#heder{
+  height: 72px;
+  text-align: center;
+  width: 100%;
+  background-color: #008080;
+}
+
+#glavna-kolona {
+  background-color: #00ffff;
+  margin-top: 22px;
+  height: 250px;
+}
+
+ #lijeva-kolona{
+   background-color: #4169e1;
+   height: 250px; } 
+
+   #desna-kolona{
+     background-color:#7fff00;
+     height: 250px;
+   }
+
+   #mala-kolona1{
+     background-color: #191970;
+     height: 250px;
+   }
+
+   #mala-kolona2{
+    background-color: #191970;
+    height: 250px;
+  }
+
+  #mala-kolona3{
+    background-color: #191970;
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .column {
+    @include outer-container;
+  }
+  .column6 {
+    @include span-columns(6);
+  }
+
+  .column4 {
+    @include span-columns(4);
+  }
+
+

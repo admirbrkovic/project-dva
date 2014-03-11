@@ -1,0 +1,77 @@
+.stranica5 {
+	
+	#header {
+		height: 100px;
+		background-color: olive;
+	}
+
+	#jedan {
+		background-color: #daa520;
+		height: 220px;
+	}
+
+	.column3 {
+		text-align: center;
+	}
+
+	#dva {
+		background-color: #00ff7f;
+		height: 220px;
+	}
+
+	#text2 {
+		text-align: center;
+		margin-top: -260px;
+	}
+
+	#tri {
+		height: 200px;
+		background-color: #7ff000;
+		margin-top: -10px;
+	}
+
+	#text3 {
+		text-align: center;
+		margin-top: -260px;
+	}
+
+	#cetri {
+		background-color: green;
+		height: 220px;
+		margin-top: -20px;
+	}
+   
+    #text4 {
+   	    text-align: center;
+      	margin-top: -30px;
+    }
+
+    #pet {
+    	background-color: #ffff00;
+    	height: 300px;
+    	margin-top: -110px;
+    }
+
+  
+    .column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+  
+  
+}
